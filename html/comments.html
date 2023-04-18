@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comentário</title>
+  <link rel="stylesheet" href="./../styles/comments.css">
+</head>
+<body>
+  <header>
+    <img src="./../midia/1logo-batman.png"/>
+      <nav>
+        <ul>
+          <a href="./../index.html">
+            <li>Home</li>
+          </a>
+          <a href="./../html/photos.html">
+            <li>Fotos</li>
+          </a>
+            <li id="comments">Comentários</li>
+          <a href="./../html/contact.html">
+            <li>Contato</li>
+          </a>
+        </ul>
+      </nav>
+  </header>
+  <form class="dados" id="formatting">
+    <span>
+      <h3>Adicione seu comentário</h3>
+    </span>
+      <label for="fname">Nome*:</label>
+      <input type="text" required minlength="2" maxlength="40" id="fname" name="Nome" class="comment"placeholder="Digite seu nome">
+      
+      <label for="lname">Sobrenome*:</label>
+      <input type="text" minlength="2" maxlength="200" id="lname" name="Sobrenone" class="comment" placeholder="Digite seu sobrenome">
+      <label class="email" for="email">Email*:&nbsp</label>
+      <input required type="email" maxlength="100" id="email" name="Email" class="comment" placeholder="Digite seu e-mail">
+
+      <span id="sGenero">Gênero:</span>
+      <div class="formatting-genero" >
+        <input type="radio" id="gFeminino" name="genero" >
+        <label for="gFeminino" class="genero">Feminino&nbsp&nbsp&nbsp&nbsp</label>
+      </div>
+      <div class="formatting-genero">
+        <input type="radio" id="gMasculino" name="genero">
+        <label for="gMasculino" class="genero">Masculino&nbsp&nbsp&nbsp&nbsp</label>
+      </div>
+      <div class="formatting-genero">
+        <input type="radio" id="gOutros" name="genero">
+        <label for="gOutros" class="genero">Outro&nbsp&nbsp&nbsp&nbsp</label>
+      </div>
+      <div class="formatting-genero">
+        <input type="radio" id="gPND" name="genero">
+        <label for="gPND" class="genero">Prediro não dizer</label>
+      </div>
+    </div>
+    <div class="cell-formatting">
+      <span id="msg">Deixe sua mensagem aqui: </span>
+      <textarea required class="comment" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem.."></textarea>
+    </div>
+    <div id="button">
+      <button class="button cell-formatting">Enviar</button>
+    </div>
+  </form>
+
+  <footer>
+    <img style="object-fit: contain;" src="./../midia/1logo-batman.png"/>
+    <span class="aa">Todos os direitos reservados ©</span>
+    <span class="aa">Desenvolvido por: Nancy </span>
+
+    <nav class="footer-navigation">
+      <ul class="footer-list">
+        <a href="./../index.html">
+          <li>Home</li>
+        </a>
+        <a href="./../html/photos.html">
+          <li>Fotos</li>
+        </a>
+          <li id="comments2">Comentários</li>
+        <a href="./../html/contact.html">
+          <li>Contato</li>
+        </a>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

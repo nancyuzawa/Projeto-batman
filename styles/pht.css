@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  text-decoration:none;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+#img-background{
+  background-size: cover;
+  background-image: url('./../midia/222.png');
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  background-color: black;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav{
+  width: 60%;
+}
+
+ul{
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li{
+  background-color: black;
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+  color: rgb(228, 167, 34);
+}
+img{
+  background-color: black;
+  width:150px;
+  height: auto;
+}
+
+.layer-index{
+  padding-top: 2%;
+  height: 60%;
+  width: 33%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  box-shadow: inset 0px -60px 60px 0px #000
+
+}
+.card{
+  margin: 0.5%;
+  height: 600px;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.cards{
+  transition: 1s;
+}
+
+.cards:hover{
+  transform: scale(0.95);
+  box-shadow: 0 0px 10px white;
+}
+
+.bloco{
+  border-radius: 35px;
+  height: 25%;
+  color: rgb(114, 26, 26);
+  font-size: 100%;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  background-image: url('./../midia/logo.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bloco-text{
+  background-color: rgb(0, 0, 0);
+  height:600px;
+  border-radius: 35px;
+  display: grid;
+  position:relative;
+  box-shadow: 0 0px 10px white;
+  cursor: default;
+}
+
+.bloco-text:hover{
+  transition: 1s;
+  box-shadow: 0 0px  20px rgb(255, 11, 11);
+  transform: scale(0.95);
+}
+
+.alt{
+  height: 100%;
+  width: cover;
+  opacity: 0;
+  transition: ease-out;
+  position: absolute;
+}
+
+.alt:hover{
+  opacity: 1;
+  box-shadow: 0 0px 10px rgb(255, 255, 255);
+  background-size: 10%;
+  display: flex;
+}
+
+.bloco-img1{
+  background-image: url('./../midia/img1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: default;
+  transition: 1s;
+}
+
+.bloco-img2{
+  background-image: url('./../midia/img2.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: default;
+  transition: 1s;
+}
+.bloco-img3{
+  background-image: url('./../midia/img3.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: default;
+  transition: 1s;
+}
+.bloco-img4{
+  background-image: url('./../midia/img4.jpg');
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: default;
+  transition: 1s;
+}
+.bloco-img5{
+  background-image: url('./../midia/img5.jpg');
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: default;
+  transition: 1s;
+}
+.bloco-img6{
+  background-image: url('./../midia/img6.jpg');
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: default;
+  transition: 1s;
+  background-size: cover;
+  background-position: center;
+}
+.bloco-img7{
+  background-image: url('./../midia/img7.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  cursor: default;
+  transition: 1s;
+  background-size: cover;
+  background-position-x: 40%;
+}
+.bloco-img8{
+  background-image: url('./../midia/img8.jfif');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  cursor: default;
+  transition: 1s;
+  background-size: cover;
+  background-position-x: 40%;
+}
+footer{
+  background: black;
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+span{
+  color: #fff;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.footer-navigation{
+  display: none;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#pht{
+  color: #bf0001;
+  font-weight: bold;
+  cursor: default;
+}
+#pht2{
+  color: #bf0001;
+  font-weight: bold;
+  cursor: default;
+}
+@media(max-width: 1212px){
+  .layer-index{
+    height: 30%;
+    width: 15%;
+    align-items: center;
+  }
+  .card{
+    height: 250px;
+    overflow: hidden;
+  }
+  .alt:hover{
+    opacity: 1;
+    background-size: cover;
+    box-shadow: 0 0px 10px rgb(255, 255, 255);
+    display: flex;
+  }
+}
+@media(max-width: 768px){
+  .footer-navigation{
+    display:block;
+  }
+  nav{
+      display:none;
+  }
+  .layer-index{
+    height: 30%;
+    width: 15%;
+    align-items: center;
+  }
+  .card{
+    height: 250px;
+    overflow: hidden;
+  }
+  .alt:hover{
+    opacity: 1;
+    transform: scale(1.0);
+    box-shadow: 0 0px 10px rgb(255, 255, 255);
+    display: flex;
+  }
+  .copyright{
+    font-size: 15px;
+  }
+}
+@media(max-width: 540px){
+  .footer-navigation{
+    display:block;
+  }
+  nav{
+      display:none;
+  }
+  .layer-index{
+    height: 30%;
+    width: 15%;
+    align-items: center;
+  }
+  .card{
+    height: 250px;
+    overflow: hidden;
+  }
+  .alt:hover{
+    opacity: 1;
+    transform: scale(2.5);
+    box-shadow: 0 0px 10px rgb(255, 255, 255);
+    display: flex;
+  }
+}
+@media(max-width: 480px){
+  .footer-navigation{
+    display:block;
+  }
+  nav{
+      display:none;
+  }
+  .layer-index{
+    height: 30%;
+    width: 15%;
+    align-items: center;
+  }
+  .card{
+    height: 200px;
+    overflow: hidden;
+  }
+  .alt:hover{
+    opacity: 1;
+    transform: scale(2.5);
+    box-shadow: 0 0px 10px rgb(255, 255, 255);
+    display: flex;
+  }
+}

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-image: url('./../midia/222.png');
+  background: #000;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: aliceblue;
+}
+
+header{
+  background-color: black;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav{
+  width: 60%;
+}
+ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+li{
+  list-style:none;
+  color: aliceblue;
+  background-color: black;
+  cursor: pointer;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+  color: rgb(228, 167, 34);
+}
+img{
+  width: 150px;
+  height: auto;
+}
+
+footer{
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-navigation{
+  display: none;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#background{
+  background-size: cover;
+  background-position-y: 0cm;
+  background-image: url('./../midia/222.png');
+  box-shadow: inset 0px -60px 59px 0px #000;
+}
+#logo{
+  width: 150px;
+  height: auto;
+}
+a>img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+}
+a>img:hover{
+  box-shadow: 0 0px 20px aliceblue;
+}
+div,p,a,span{
+  background-color: #bf000000;
+}
+body>div{
+  margin-top: 5%;
+  width: 100%;
+  height: 480px;
+  display: flex;
+}
+#logo-edit{
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+  width: 50%;
+}
+div>div>div::before:not(.div-right){
+  content: "" !important;
+  display: block !important;
+    margin-bottom: 6em !important;
+}
+ div>div{
+ font-size: 23px;
+} 
+#left-side{
+  margin-left: 6%;
+  width: 30%;
+}
+.span-left{
+  margin-left: 10%;
+  font-size: 25px;
+}
+.span-right{
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#copyright{
+  font-size: 15px;
+}
+.dados{
+  font-size: 70%;
+  color: rgba(251, 250, 250, 0.823);
+  height: .1%;
+}
+p{
+  color: rgb(251, 250, 250);
+  line-height: 25px;
+}
+.div-right{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+input{
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+  padding: 1px 10px;
+}
+input:hover{
+  box-shadow: 0 0px 20px aliceblue;
+}
+.text{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: black;
+  border:solid  1px rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  box-shadow: 4px 4px #ffffff; 
+  padding-left: 0.5%;
+  font-size: 90%;
+
+}
+textarea{
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+  padding: 1px 10px;
+  font-size: 90%;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: black;
+  border:solid  1px rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  box-shadow: 4px 4px #ffffff; 
+  padding-left: 0.5%;
+}
+textarea:hover{
+  box-shadow: 0 0px 20px aliceblue;
+}
+button{
+  width:200px;
+  height: 60px;
+  background-color: #bf0001;
+  color: rgb(255, 255, 255);
+  padding: 8px 10px;
+  border-radius: 5px ;
+  cursor: pointer;
+  transition: .8s;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid rgb(244, 221, 221);
+  outline: none;
+  margin-top: 25px;
+  }
+  button:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+.dado{
+  cursor: default;
+  color: rgb(251, 250, 250);
+}
+
+form{
+  width: 50%;
+  margin-left:5%;
+}
+#contact{
+  font-weight: bold;
+  cursor: default;
+  color: #bf0001;
+
+}
+#contact2{
+  color: #bf0001;
+  font-weight: bold;
+  cursor: default;
+
+}
+@media(max-width: 768px){
+  .footer-navigation{
+    display: block;
+  }
+  nav{
+    display: none;
+  }
+  button{
+    width: 100%; 
+  }
+  button:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+  body>div{
+    height: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  form{
+    width: 70%;
+    margin-bottom: 20%;
+  }
+  .span-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  input{
+    font-size: 15px;
+  }
+  textarea{
+    font-size: 15px;
+  }
+  p{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  #left-side{
+    margin-left: 0;
+    margin-top: 20%;
+    width: 80%;
+  }
+  .dado{
+    font-size: 20px;
+  }
+  .dados{
+    display: none;
+  }
+  #telefone::after{
+    font-size: 17px;
+    white-space: pre;
+    content: "\A(00) 92222-1111";
+  }
+  #horarioComercial::after{
+    font-size: 17px;
+    white-space: pre;
+    content: "\Aseg - sext       8h - 18h\Asab                   8h - 12h\A dom                 fechado";
+  }
+  .cc{
+    margin-right: 5%;
+  }
+  .aa{
+    font-size: 15px;
+  }
+}

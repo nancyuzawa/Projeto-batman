@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  background-color: black;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body{
+  background-image: url('./../midia/222.png');
+  background-repeat: no-repeat;
+  background: #000;
+  /* background-size: cover; */
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: aliceblue;
+}
+nav{
+  width: 60%;
+}
+ul{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+li{
+  list-style:none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: .5s;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+li:hover{
+  color: rgb(228, 167, 34);
+}
+img{
+  width: 150px;
+  height: auto;
+}
+footer{
+  background: #000000;
+  height: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;  
+}
+.footer-navigation{
+  display: none;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form{
+  background-size: cover;
+  background-image: url('./../midia/222.png');
+
+}
+.dados{
+  font-size: 150%;
+}
+.comment{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: black;
+  border:solid  1px rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 200px;
+  color: rgb(255, 255, 255);
+  box-shadow: 4px 4px #ffffff; 
+  padding-left: 0.5%;
+}
+#formatting{
+  padding: 5% 5% 5% 5%;
+}
+#fname{
+  font-size: 65%;
+  margin-left: auto;
+  height: 30px;
+  width: 20%;
+  margin-right:2%;
+}
+#fname:hover{
+  box-shadow: 0 0px 15px aliceblue;
+} 
+#lname{
+  font-size: 65%;
+  height: 30px;
+}
+#lname:hover{
+  box-shadow: 0 0px 15px aliceblue;
+}
+.email::before{
+  content: "" !important;
+  display: block !important;
+  margin-bottom: 1em !important;
+}
+#email{
+  font-size: 65%;
+  height: 30px;
+  width: 82%;
+  margin-right: 2%;
+  margin-bottom: 3%;
+}
+#email:hover{
+  box-shadow: 0 0px 15px aliceblue;
+}
+.email{
+  text-align: justify;
+}
+#sGenero{
+  margin-right: 5%;
+}
+.pc-formatting{
+  display: flex;
+  flex-direction: row;
+}
+.formatting-genero{
+  margin-top: 0%;
+}
+h3{
+  margin-bottom: 2%;
+}
+div{
+  margin-top: 20px;
+}
+#mensagem{
+  width: 90%;
+  font-size: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.button{
+  width:200px;
+  height: 60px;
+  background-color: #bf0001;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .8s;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+}
+.button:hover{
+  background-color: #fff;
+  color: black;
+}
+#button{
+  display: flex;
+  justify-content: center;
+}
+textarea{
+  height: 250px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea:hover{
+  box-shadow: 0 0px 15px aliceblue;
+}
+#comments{
+  color: #bf0001;
+  font-weight: bold;
+  cursor: default;
+}
+#comments2{
+  color: #bf0001;
+  font-weight: bold;
+  cursor: default;
+}
+@media(min-width: 1080px){
+  form{
+    box-shadow: inset 0px -60px 60px 0px #000;
+  }
+}
+
+@media(max-width: 768px){
+  .footer-navigation{
+    display: block;
+  }
+  nav{
+    display: none;
+  }
+  .button{
+    width: 90%;
+  }
+  #formatting{
+    margin: 0;
+  }
+  #email{
+    width: 100%;
+  }
+  #lname{
+    width: 100%;
+  }
+  #fname{
+    width: 100%;
+  }
+  #sGenero{
+    content: "" !important;
+   display: block !important;
+    margin-bottom: 0.5em !important;
+    font-size: 75%;
+  }
+  .genero{
+    font-size: 70%;
+  }
+  .pc-formatting{
+    display: block;
+  }
+  .formatting-genero{
+    margin: 0;
+    padding: 0;
+  }
+  .cell-formatting{
+    font-size: 70%;
+  }
+  h3{
+    font-size: 85%;
+    text-align: center;
+  }
+  textarea{
+    height: 120px;
+  }
+  .button{
+    height: 40px;
+  }
+  .aa{
+    font-size: 15px;
+  }
+  label{
+    font-size: 75%;
+  }
+}
