@@ -18,6 +18,7 @@ header{
 nav{
   width: 60%;
 }
+
 ul{
   display: flex;
   width: 100%;
@@ -32,13 +33,16 @@ li{
   transition: .5s;
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
+
 li:hover{
   color: rgb(228, 167, 34);
 }
+
 #logo{
   width: 150px;
   height: auto;
 }
+
 #banner{
   background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
   background-position: 50% 50%;
@@ -60,9 +64,11 @@ li:hover{
   align-items: center;
   justify-content: space-between;
 }
+
 .trailer{
   width: 50%;
 }
+
 #sinopse{
   width: 50%;
   display: flex;
@@ -78,6 +84,7 @@ li:hover{
   font-family:'Kdam Thmor Pro', sans-serif;
   width: 70%;
 }
+
 .button{
   width: 200px;
   height: 60px;
@@ -108,6 +115,7 @@ li:hover{
   justify-content: center;
   margin-top: 50px;
 }
+
 .cards-content{
   width:90%;
   display: grid;
@@ -115,6 +123,7 @@ li:hover{
   row-gap: 20px;
   column-gap: 40px;
 }
+
 .card{
   width: 100%;
   height: 600px;
@@ -135,12 +144,15 @@ li:hover{
 .card:hover{
   transform: scale(1.05);
 }
+
 .banner-1{
   background-image: url('../midia/banner1.jpg');
 }
+
 .banner-2{
   background-image: url('../midia/banner2.jpeg');
 }
+
 .banner-3{
   background-image: url('../midia/banner3.jpg');
 }
@@ -153,23 +165,28 @@ footer{
   align-items: center;
   justify-content: space-around;
 }
+
 span{
   color: #fff;
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
+
 .footer-navigation{
   display: none;
 }
+
 .footer-list{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 #home{
   color: #bf0001;
   font-weight: bold;
   cursor: default;
 }
+
 #home2{
   color: #bf0001;
   font-weight: bold;
