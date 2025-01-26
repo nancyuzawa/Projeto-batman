@@ -136,13 +136,13 @@ li:hover{
   transform: scale(1.05);
 }
 .banner-1{
-  background-image: url('https://www.wowkeren.com/display/images/photo/2022/02/02/00409245.jpg');
+  background-image: url('../midia/banner1.jpg');
 }
 .banner-2{
-  background-image: url('https://pbs.twimg.com/media/FMOk4EiXEAURgip?format=jpg&name=900x900');
+  background-image: url('../midia/banner2.jpeg');
 }
 .banner-3{
-  background-image: url('https://2.bp.blogspot.com/-N9DtMsBCAwI/XbtdLT8foBI/AAAAAAACzVU/bTyfrBq-ApwVG8DUfRmWYVlvKyzXJ-08wCK4BGAYYCw/s1600/jeffreywrights.jpg');
+  background-image: url('../midia/banner3.jpg');
 }
 
 footer{
